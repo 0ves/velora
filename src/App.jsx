@@ -10,7 +10,7 @@ const MODEL_NAME = "gemini-2.5-flash-preview-09-2025";
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 const MAX_RETRIES = 5;
 
-// --- Asset Paths ---
+// -- Asset Paths --
 const LOGO_URL = "uploaded:505445610_17858798805431838_1484203170803331062_n.png";
 const HERO_VIDEO_URL = "uploaded:Here’s a glimpse of our new menu fresh flavours, delicious food, and exciting drinks. So what ar.mp4";
 const CABANA_VIDEO_URL = "uploaded:AQOqD7P_mmEyjljxSnTZsk-mvJ3H4vXuD9KnKVnrOob-ZBrfVLT8YM8GUaH12TK0sXO7vzC-31p_tznHeoBCnAaGpzJIHihG.mp4";
@@ -607,7 +607,7 @@ const ExperienceSection = ({ openEventPlanner }) => {
     );
 };
 
-// Gallery Section Component
+
 const GallerySection = () => {
     const galleryRef = useRef(null);
     const titleRef = useRef(null);
